@@ -1,0 +1,33 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+promptgate
+promptgate.exe
+bin/
+dist/
+
+# 依赖与构建缓存
+.gopath/
+vendor/
+
+# 运行时数据（首次启动自动生成）
+config.yaml
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# 前端
+webui/node_modules/
+webui/dist/
+.npm-cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
