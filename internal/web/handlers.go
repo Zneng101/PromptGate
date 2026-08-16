@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zheng101/promptgate/internal/cache"
-	"github.com/zheng101/promptgate/internal/engine"
-	"github.com/zheng101/promptgate/internal/gateway"
-	"github.com/zheng101/promptgate/internal/store"
+	"github.com/zneng101/promptgate/internal/cache"
+	"github.com/zneng101/promptgate/internal/engine"
+	"github.com/zneng101/promptgate/internal/gateway"
+	"github.com/zneng101/promptgate/internal/store"
 )
 
 // Server 聚合所有依赖，提供 HTTP 路由。

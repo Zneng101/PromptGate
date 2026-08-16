@@ -1,4 +1,4 @@
-module github.com/zheng101/promptgate
+module github.com/zneng101/promptgate
 
 go 1.25.0
 

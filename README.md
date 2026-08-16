@@ -81,7 +81,7 @@ promptgate/
 
 ### Option 0: Download a prebuilt binary (simplest)
 
-Go to the [Releases page](https://github.com/Zheng101/PromptGate/releases/latest), download the archive for your platform, extract and run:
+Go to the [Releases page](https://github.com/Zneng101/PromptGate/releases/latest), download the archive for your platform, extract and run:
 
 ```bash
 # Linux / macOS
@@ -94,7 +94,7 @@ tar -xzf promptgate-linux-amd64.tar.gz && ./promptgate
 ### Option A: Build from source (recommended)
 
 ```bash
-git clone https://github.com/Zheng101/PromptGate.git
+git clone https://github.com/Zneng101/PromptGate.git
 cd promptgate
 
 # Linux / macOS

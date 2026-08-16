@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/bluele/gcache"
-	"github.com/zheng101/promptgate/internal/store"
+	"github.com/zneng101/promptgate/internal/store"
 )
 
 // Cache 提供模板的热数据缓存：原子指针替换 + 渲染结果 LRU。

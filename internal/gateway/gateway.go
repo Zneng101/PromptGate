@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zheng101/promptgate/internal/cache"
-	"github.com/zheng101/promptgate/internal/engine"
-	"github.com/zheng101/promptgate/internal/store"
-	"github.com/zheng101/promptgate/pkg/tokenizer"
+	"github.com/zneng101/promptgate/internal/cache"
+	"github.com/zneng101/promptgate/internal/engine"
+	"github.com/zneng101/promptgate/internal/store"
+	"github.com/zneng101/promptgate/pkg/tokenizer"
 )
 
 // UpstreamConfig 上游 LLM 配置。
@@ -145,13 +145,13 @@ func (g *Gateway) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var (
-		tmpl       *store.PromptTemplate
-		version    *store.Version
-		rendered   string
-		inputTokens int
-		tmplName   string
+		tmpl         *store.PromptTemplate
+		version      *store.Version
+		rendered     string
+		inputTokens  int
+		tmplName     string
 		versionLabel string
-		model      = req.Model
+		model        = req.Model
 	)
 
 	// 命中模板：查本地缓存（原子读）
